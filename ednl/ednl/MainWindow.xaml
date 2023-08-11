@@ -1,0 +1,16 @@
+﻿<Window x:Class="ednl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ednl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920">
+    <Grid>
+        <TextBlock x:Name="question" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,50,0,0" TextAlignment="Center">hola</TextBlock>
+        <TextBlock x:Name="answer" FontSize="50" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="LawnGreen" Visibility="Collapsed">Correcto!</TextBlock>
+        <Button x:Name="v" Content="true" Width="200" Height="30"  Background="LawnGreen" Margin="120,335,480,69" Click="v_Click"></Button>
+        <Button x:Name="f" Content="false" Width="200" Height="30"  Background="Red" Margin="458,335,142,69" Click="f_Click"/>
+        <Button x:Name="c" Content="continue" Width="200" Height="30"  Background="blue" Margin="291,394,309,10" Click="c_Click" Visibility="Collapsed"/>
+    </Grid>
+</Window>
